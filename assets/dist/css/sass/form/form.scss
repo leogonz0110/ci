@@ -1,0 +1,11 @@
+.form-block {
+    .row {
+        margin-bottom: 10px;
+    }
+    label {
+        padding-top: 6px;
+        @media(max-width: 768px) {
+            padding-top: 0;
+        }
+    }
+}
